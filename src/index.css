@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+.HeaderBox {
+  background-color: #F9F9F9;
+}
+.Header {
+  background-image: url("/public/image.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 500px;
+}
