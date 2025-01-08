@@ -1,6 +1,9 @@
 import React from 'react';
 import Header from './Main/Header';
 import Converter from './Main/Converter';
+import XML from './Main/XML';
+import JSON from './Main/JSON';
+import Converter2 from './Main/Converter2';
 
 function Main() {
   return (
@@ -12,7 +15,8 @@ function Main() {
 
       <div className='bg-zinc-50 flex-1 mx-28 px-10 py-10 -top-72 relative min-h-screen left-0 p-4 rounded-lg'>
         <Header />
-        <Converter />
+        <Converter2 />
+        {/* <Converter /> */}
       </div>
     </div>
   );

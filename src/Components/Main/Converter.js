@@ -24,7 +24,7 @@ function Converter() {
     };
 
     return (
-        <div id='convert' className='px-10 py-28 mt-10'>
+        <div id='convert' className='px-10 '>
             <div className='bg-zinc-100 mx-auto mb-6 flex justify-between items-center p-1 rounded-lg w-fit'>
                 <button
                     onClick={() => setFrom("JSON")& setFiles([])}
